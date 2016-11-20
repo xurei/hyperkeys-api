@@ -1,0 +1,16 @@
+{
+  "name": "hyperskeys-api",
+  "version": "1.0.0",
+  "description": "API for HyperKeys extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xurei/hyperkeys-api.git"
+  },
+  "author": "Olivier Bourdoux",
+  "license": "MIT",
+  "homepage": "https://github.com/xurei/hyperkeys-api.git#readme"
+}
