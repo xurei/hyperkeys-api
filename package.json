@@ -1,5 +1,5 @@
 {
-  "name": "hyperskeys-api",
+  "name": "hyperkeys-api",
   "version": "1.0.0",
   "description": "API for HyperKeys extensions",
   "main": "index.js",
