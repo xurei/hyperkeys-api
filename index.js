@@ -1,15 +1,15 @@
 /**
  * @type {{
  *  platform: {
- *      name: {string},
- *      arch: {string},
+ *      name: string,
+ *      arch: string,
  *
- *      isWin: {boolean},
- *      isWin32: {boolean},
- *      isWin64: {boolean},
+ *      isWin: boolean,
+ *      isWin32: boolean,
+ *      isWin64: boolean,
  *
- *      isMac: {boolean},
- *      isLinux: {boolean}
+ *      isMac: boolean,
+ *      isLinux: boolean
  *  }
  * }}
  */
