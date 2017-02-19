@@ -1,6 +1,6 @@
 {
   "name": "hyperkeys-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "API for HyperKeys extensions",
   "main": "index.js",
   "scripts": {
