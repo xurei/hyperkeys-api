@@ -13,18 +13,18 @@ function getPlatformArch() {
 	return process.arch;
 }
 
-var isWin = (getPlatformName() == "windows");
+var isWin = (getPlatformName() === "windows");
 
 var platform = {
 	name: getPlatformName(),
 	arch: getPlatformArch(),
 	
 	isWin: isWin,
-	isWin32: (isWin && getPlatformArch() == "ia32"),
-	isWin64: (isWin && getPlatformArch() == "x64"),
+	isWin32: (isWin && getPlatformArch() === "ia32"),
+	isWin64: (isWin && getPlatformArch() === "x64"),
 	
-	isMac: (getPlatformName() == "mac"),
-	isLinux: (getPlatformName() == "linux"),
+	isMac: (getPlatformName() === "mac"),
+	isLinux: (getPlatformName() === "linux"),
 };
 
 module.exports = platform;
