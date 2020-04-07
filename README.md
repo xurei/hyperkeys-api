@@ -3,7 +3,7 @@
 ## platform
 Useful values for platform detection.
 ### platform.name generic name of the platform; most likely unreliable
-### platform.arch
+### platform.arch should be x64 or ia32
 ### platform.isWin   true on Windows
 ### platform.isWin32 true on Windows 32bits
 ### platform.isWin64 true on Windows 64bits
