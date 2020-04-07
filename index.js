@@ -14,5 +14,6 @@
  * }}
  */
 module.exports = {
-	platform: require('./platform')
+	platform: require('./platform'),
+	NotificationService: require('./notification-service'),
 };

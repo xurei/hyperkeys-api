@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/xurei/hyperkeys-api.git"
   },
+  "peerDependencies": {
+    "node-notifier": "^6.0.0"
+  },
   "author": "Olivier Bourdoux",
   "license": "MIT",
   "homepage": "https://github.com/xurei/hyperkeys-api.git#readme"
